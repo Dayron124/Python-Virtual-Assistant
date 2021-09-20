@@ -26,6 +26,6 @@ while True:
         res = client.query(values[0])
         wolfram_res = next(res.results).text
     print(values[0])
-    sg.Popup(wiki_res)  
+    sg.Popup(wiki_res)
 
 window.close()
